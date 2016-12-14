@@ -2,7 +2,7 @@
 title: "UI Text"
 permalink: /docs/ui-text/
 excerpt: "Text for customizing various user interface elements found in the theme."
-modified: 2016-11-03T10:52:31-04:00
+modified: 2016-12-14T11:23:28-05:00
 ---
 
 Text for various UI elements, `_layouts`, and `_includes` have all been grouped together as a set of translation keys. This is by no means a full-on i18n solution, but it does help make customizing things a bit easier.
@@ -27,3 +27,6 @@ Many of the label based keys like `meta_label`, `categories_label`, `tags_label`
 
 **Note:** The theme comes with localized text in English (`en`, `en-US`, `en-GB`). If you change `locale` in `_config.yml` to something else, most of the UI text will go blank. Be sure to add the corresponding locale key and translated text to `_data/ui-text.yml` to avoid this.
 {: .notice--warning}
+
+**ProTip:** Leverage the [`jekyll-data`](https://github.com/ashmaroli/jekyll-data) plugin to use the default `_data` files bundled in the theme gem. Simply add `jekyll-data` to the `gems:` array in `_config.yml` and you're good to go.
+{: .notice--info}

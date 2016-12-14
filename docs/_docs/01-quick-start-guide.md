@@ -2,7 +2,7 @@
 title: "Quick-Start Guide"
 permalink: /docs/quick-start-guide/
 excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-modified: 2016-11-03T10:01:43-04:00
+modified: 2016-12-14T11:24:26-05:00
 redirect_from:
   - /theme-setup/
 ---
@@ -103,6 +103,9 @@ After taking care of Jekyll's configuration file, you'll need to create and edit
 
 - [`_data/ui-text.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml) - UI text [documentation]({{ "/docs/ui-text/" | absolute_url }})
 - [`_data/navigation.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml) - navigation [documentation]({{ "/docs/navigation/" | absolute_url }})
+
+**ProTip:** Leverage the [`jekyll-data`](https://github.com/ashmaroli/jekyll-data) plugin to use the default `_data` files bundled in the theme gem. Simply add `jekyll-data` to the `gems:` array in `_config.yml` and you're good to go.
+{: .notice--info}
 
 ### Starting from `jekyll new`
 
