@@ -8,7 +8,7 @@
 theme                    : "minimal-mistakes-jekyll"
 
 # Site Settings
-locale                   : "en"
+locale                   : "fr"
 title                    : "dev_MM"
 title_separator          : "-"
 name                     : "Your Name"
