@@ -36,7 +36,7 @@ The videos below provide some definitions of what transdisciplinarity means and 
 Miriam Huitric (text), Johan Rockström (video), Joern Fischer (video)
 
 
-{% capture notice-2 %}
+{% capture .notice--info %}
 #### Challenge yourself
 
 Try to go through the following thought exercise:
