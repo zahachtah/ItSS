@@ -22,7 +22,7 @@ sideMenu:
       - 
         title: "Concepts"
         url: /
-    title: "Preparation"
+    title: "Introduction"
   - 
     children: 
       - 
@@ -40,7 +40,7 @@ sideMenu:
       - 
         title: "Child Page B5"
         url: /
-    title: "Introduction"
+    title: "The Anthropocene"
   - 
     children: 
       - 
@@ -58,7 +58,7 @@ sideMenu:
       - 
         title: "Child Page C5"
         url: /
-    title: "Parent Page C"
+    title: "Reconnecting"
   - 
     children: 
       - 
