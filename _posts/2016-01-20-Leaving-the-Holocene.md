@@ -1,5 +1,5 @@
 ---
-title: "The Anthropocene"
+title: "Leaving the Holocene"
 categories:
   - Post Formats
 tags:
