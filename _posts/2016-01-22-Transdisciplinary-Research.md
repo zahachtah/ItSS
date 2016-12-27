@@ -5,6 +5,7 @@ categories:
 tags:
   - image
   - Post Formats
+author_profile: false
 sidebar:
   title: "Sample Title"
   nav: sideMenu
