@@ -6,6 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+future                   : true
 locale                   : "en"
 title                    : "ItSS"
 title_separator          : "-"
@@ -18,7 +19,11 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
+<<<<<<< HEAD
   provider               : "discourse" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+=======
+  provider               : "disqus" #"custom" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+>>>>>>> origin/gh-pages
   disqus:
     shortname            : introToSustainabilityScience # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -79,7 +84,7 @@ analytics:
 author:
   name             : "Jon Norberg"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "CAS scientist"
   location         : "Somewhere"
   email            :
   uri              :
@@ -241,6 +246,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
