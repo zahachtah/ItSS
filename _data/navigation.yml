@@ -62,10 +62,51 @@ sideMenu:
   - 
     children: 
       - 
+        title: "The goal of"
+        url: /
+      - 
+        title: "Well-being"
+        url: /
+      - 
+        title: "Defining"
+        url: /
+      - 
+        title: "Valuing the future"
+        url: /
+    title: "Sustainability"
+      - 
+    children: 
+      - 
         title: "Child Page D1"
         url: /
       - 
         title: "Child Page D2"
         url: /
-    title: "Parent Page D"
-
+    title: "Understanding systems"
+  - 
+    children: 
+      - 
+        title: "Child Page D1"
+        url: /
+      - 
+        title: "Child Page D2"
+        url: /
+    title: "Governance toolbox"
+  - 
+    children: 
+      - 
+        title: "Child Page D1"
+        url: /
+      - 
+        title: "Child Page D2"
+        url: /
+    title: "Invoking change"
+  - 
+    children: 
+      - 
+        title: "Child Page D1"
+        url: /
+      - 
+        title: "Child Page D2"
+        url: /
+    title: "Concluding"
