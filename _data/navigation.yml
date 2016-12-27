@@ -19,7 +19,7 @@ sideMenu:
       - 
         title: "Transdisciplinarity"
         url: /
-       - 
+      - 
         title: "Concepts"
         url: /
     title: "Preparation"
@@ -68,3 +68,4 @@ sideMenu:
         title: "Child Page D2"
         url: /
     title: "Parent Page D"
+
