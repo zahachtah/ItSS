@@ -51,5 +51,5 @@ You probably found the second question much more time consuming than the first. 
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-<iframe width="600" height="315" src="https://gitter.im/Introduction-to-Sustainability-Science/Introduction/~embed">
+<iframe width="600" height="315" src="https://gitter.im/Introduction-to-Sustainability-Science/Introduction/~embed" frameborder="0">
 
