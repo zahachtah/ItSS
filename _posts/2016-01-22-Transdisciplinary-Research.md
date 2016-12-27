@@ -20,19 +20,20 @@ The videos below provide some definitions of what transdisciplinarity means and 
 ## What is transdisciplinarity
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cRv78EDki6A" frameborder="0" allowfullscreen></iframe>
-
+Joern Fischer
 
 [Direct link](https://www.youtube.com/embed/cRv78EDki6A) 
 
 ## Science in the Anthropocene
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W49IIgf_H90" frameborder="0" allowfullscreen></iframe>
+Johan Rockström
 
 [Direct link](https://www.youtube.com/embed/W49IIgf_H90) {.contributors}
 
-# Contributors
+### Contributors
 
-Miriam Huitric (text), Johan Rockström (video), Joern Fischer (video)
+Miriam Huitric (text)
 
 
 {% capture notice-2 %}
