@@ -7,7 +7,7 @@ tags:
   - Post Formats
 author_profile: false
 sidebar:
-  title: "Sample Title"
+  title: "Topics"
   nav: sideMenu
 ---
 In this course you will encounter many terms and concepts. You are likely wonder at times why there are so many terms describing similar things and that the same term is used to describe quite different things. This is due to the trans-disciplinary nature of sustainability science. Within disciplines, terminology and use of language emerges that facilitates communication and problem formulation between participants. Often similar problems are analysed in several disciplines but different languages have developed. Sometimes, the same term can mean different things in different disciplines. 
