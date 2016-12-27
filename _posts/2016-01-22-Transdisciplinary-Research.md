@@ -51,5 +51,5 @@ You probably found the second question much more time consuming than the first. 
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-<iframe src="https://gitter.im/gitterHQ/gitter/~embed">
+<iframe width="560" height="315" src="https://gitter.im/gitterHQ/gitter/~embed">
 
