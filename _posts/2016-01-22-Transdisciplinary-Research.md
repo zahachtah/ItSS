@@ -29,7 +29,7 @@ Joern Fischer
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W49IIgf_H90" frameborder="0" allowfullscreen></iframe>
 Johan Rockström
 
-[Direct link](https://www.youtube.com/embed/W49IIgf_H90) {.contributors}
+[Direct link](https://www.youtube.com/embed/W49IIgf_H90)
 
 ### Contributors
 
