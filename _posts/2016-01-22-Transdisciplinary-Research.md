@@ -36,7 +36,7 @@ The videos below provide some definitions of what transdisciplinarity means and 
 Miriam Huitric (text), Johan Rockström (video), Joern Fischer (video)
 
 
-{% capture notice--info %}
+{% capture notice-2 %}
 #### Challenge yourself
 
 Try to go through the following thought exercise:
@@ -46,6 +46,8 @@ Try to go through the following thought exercise:
 
 You probably found the second question much more time consuming than the first. This is in a way the basis of your work with sustainability science and this course. You will need to understand and explain the “why” behind material presented by others as well as yourself. When your answer to the question “does everyone agree with this?” is “NO”, then you are getting at different worldviews or interpretations of the same information.
 {% endcapture %}
+
+<div class="notice--info">{{ notice-2 | markdownify }}</div>
 
 
 
