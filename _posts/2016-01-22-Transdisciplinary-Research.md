@@ -37,8 +37,6 @@ Miriam Huitric (text)
 
 
 {% capture notice-2 %}
-#### Challenge yourself
-
 Try to go through the following thought exercise:
 
 * List 2 things relating to sustainability that you strongly believe to be true. For each of these try to explain to yourself why you believe this to be true
