@@ -9,7 +9,7 @@ author_profile: false
 sidebar:
   nav: sideMenu
 ---
-In this course you will encounter many terms and concepts. You are likely wonder at times why there are so many terms describing similar things and that the same term is used to describe quite different things. This is due to the trans-disciplinary nature of sustainability science. Within disciplines, terminology and use of language emerges that facilitates communication and problem formulation between participants. Often similar problems are analysed in several disciplines but different languages have developed. Sometimes, the same term can mean different things in different disciplines. 
+In this course you will encounter many terms and concepts. You are likely wonder at times why there are so many terms describing similar things and that the same term is used to describe quite different things. This is due to the trans-disciplinary nature of sustainability science. Within disciplines, terminology and use of language emerges that facilitates communication and problem formulation between participants. Often similar problems are analysed in several disciplines but different languages have developed. Sometimes, the same term can mean different things in different disciplines.
 
 While transdisciplinarity seems like a sensible and natural approach, it is often very expensive and complicated. The development of languages, methods and problem formulation within and between disciplines differ, and one needs to be aware of the bases and assumptions of these in order to address differences in interpretations of problem formulation, research design and interpretation of results.
 
@@ -25,7 +25,7 @@ The videos below provide some definitions of what transdisciplinarity means and 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cRv78EDki6A" frameborder="0" allowfullscreen></iframe>
 Joern Fischer
 
-[Direct link](https://www.youtube.com/embed/cRv78EDki6A) 
+[Direct link](https://www.youtube.com/embed/cRv78EDki6A)
 
 ## Science in the Anthropocene
 
@@ -49,6 +49,3 @@ You probably found the second question much more time consuming than the first. 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
-
-<iframe width="600" height="315" src="https://gitter.im/Introduction-to-Sustainability-Science/Introduction/~embed" frameborder="0">
-
