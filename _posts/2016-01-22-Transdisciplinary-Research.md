@@ -1,7 +1,7 @@
 ---
 title: "The trans-disciplinary Approach"
 categories:
-  - Post Formats
+  - introduction
 tags:
   - image
   - Post Formats

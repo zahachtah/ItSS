@@ -1,113 +1,120 @@
---- 
-main: 
-    
-sideMenu: 
-  - 
-    children: 
-      - 
+---
+main:
+
+sideMenu:
+  -
+    children:
+      -
         title: "Welcome"
-        url: /
-      - 
-        title: "Schedule"
-        url: /
-      - 
-        title: "Readings"
-        url: /
-      - 
-        title: "Transdisciplinarity"
-        url: /
-      - 
-        title: "Social-ecolgical systems"
-        url: /
-      - 
-        title: "Concepts"
-        url: /
+        url: /introduction/welcome/
+      -
+        title: "Schedule & Readings"
+        url: /introduction/schedule/
+  -
     title: "Introduction"
-  - 
-    children: 
-      - 
+    children:
+      -
+        title: "Roadmap"
+        url: /introduction/Roadmap/
+      -
+        title: "Social-ecolgical systems"
+        url: /introduction/Social-ecological-systems/
+      -
+        title: "Transdisciplinarity"
+        url: /introduction/Transdisciplinary-Research/
+      -
+        title: "Natural Science Concepts"
+        url: /introduction/Natural-Science-Concepts/
+      -
+        title: "Social Science Concepts"
+        url: /introduction/Social-Science-Concepts/
+      -
+        title: "Take Home"
+        url: /introduction/Take-Home/
+  -
+    children:
+      -
         title: "The Anthropocene"
-        url: /
-      - 
+        url: /anthropocene/The-Anthropocene/
+      -
         title: "Leaving the Holocene"
-        url: /
-      - 
+        url: /anthropocene/Leaving-the-Holocene/
+      -
         title: "Child Page B3"
         url: /
-      - 
+      -
         title: "Child Page B4"
         url: /
-      - 
+      -
         title: "Child Page B5"
         url: /
     title: "The Anthropocene"
-  - 
-    children: 
-      - 
+  -
+    children:
+      -
         title: "Child Page C1"
         url: /
-      - 
+      -
         title: "Child Page C2"
         url: /
-      - 
+      -
         title: "Child Page C3"
         url: /
-      - 
+      -
         title: "Child Page C4"
         url: /
-      - 
+      -
         title: "Child Page C5"
         url: /
     title: "Reconnecting"
-  - 
-    children: 
-      - 
+  -
+    children:
+      -
         title: "The goal of"
         url: /
-      - 
+      -
         title: "Well-being"
         url: /
-      - 
+      -
         title: "Defining"
         url: /
-      - 
+      -
         title: "Valuing the future"
         url: /
     title: "Sustainability"
-  - 
-    children: 
-      - 
+  -
+    children:
+      -
         title: "Child Page D1"
         url: /
-      - 
+      -
         title: "Child Page D2"
         url: /
     title: "Understanding systems"
-  - 
-    children: 
-      - 
+  -
+    children:
+      -
         title: "Child Page D1"
         url: /
-      - 
+      -
         title: "Child Page D2"
         url: /
     title: "Governance toolbox"
-  - 
-    children: 
-      - 
+  -
+    children:
+      -
         title: "Child Page D1"
         url: /
-      - 
+      -
         title: "Child Page D2"
         url: /
     title: "Invoking change"
-  - 
-    children: 
-      - 
+  -
+    children:
+      -
         title: "Child Page D1"
         url: /
-      - 
+      -
         title: "Child Page D2"
         url: /
     title: "Concluding"
-

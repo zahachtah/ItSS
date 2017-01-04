@@ -5,17 +5,16 @@ categories:
 tags:
   - image
   - Post Formats
+author_profile: false
+sidebar:
+  nav: sideMenu
 ---
-
-
-# Introduction
-
-In this first section of the course the main aim is to get an __understanding__ of the planetary system from the perspective of sustainability. This involves understanding the current situation and the path that led us to it. 
+In this first section of the course the main aim is to get an __understanding__ of the planetary system from the perspective of sustainability. This involves understanding the current situation and the path that led us to it.
 
 This module addresses the following learning objectives:
 
 * explain how humanity has affected the earth’s ecosystems
-* show a good overview of transdisciplinary methodology 
+* show a good overview of transdisciplinary methodology
 
 Thus, we begin this module with a lecture on a biosphere shaped by humanity and we will watch Johan Rockström make a case for why we have now entered a new geological epoch, the Anthropocene. To see why this is important, we will also have a look at what is called humanities period of grace, the predating epoch called the Holocene. During this time the conditions were favourable enough to allow humanity to build the agricultural societies which gave rise to trade and eventually to the industrial and information revolution. The important lesson, is that the Holocene is the only state of the planet we know of, that can harbor society as we know it today. This is a profound lesson, one that helps us define the goal of sustainability for the future.![The Anthropocene]({{ site.url }}{{ site.baseurl }}/assets/images/Anthropocene.jpg)
 
