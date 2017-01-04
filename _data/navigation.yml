@@ -15,7 +15,7 @@ sideMenu:
     children:
       -
         title: "Roadmap"
-        url: /introduction/Roadmap/
+        url: /introduction/introduction-Roadmap/
       -
         title: "Social-ecolgical systems"
         url: /introduction/Social-ecological-systems/
@@ -30,9 +30,13 @@ sideMenu:
         url: /introduction/Social-Science-Concepts/
       -
         title: "Take Home"
-        url: /introduction/Take-Home/
+        url: /introduction/Introduction-Take-Home/
   -
+    title: "The Anthropocene"
     children:
+      -
+        title: "Roadmap"
+        url: /anthropocene/Anthropocene-Roadmap/
       -
         title: "The Anthropocene"
         url: /anthropocene/The-Anthropocene/
@@ -40,15 +44,23 @@ sideMenu:
         title: "Leaving the Holocene"
         url: /anthropocene/Leaving-the-Holocene/
       -
-        title: "Child Page B3"
-        url: /
+        title: "The Great Acceleration"
+        url: /anthropocene/The-Great-Acceleration/
       -
-        title: "Child Page B4"
-        url: /
+        title: "The quadrupel squeeze"
+        url: /anthropocene/The-Quadruple-Squeeze/
       -
-        title: "Child Page B5"
-        url: /
-    title: "The Anthropocene"
+        title: "Planetary boundaries"
+        url: /anthropocene/Planetary-Boundaries/
+      -
+        title: "Inconvenient feedbacks"
+        url: /anthropocene/Inconvinient-Feedbacks/
+      -
+        title: "Take-Home"
+        url: /anthropocene/Anthropocene-Take-Home/
+
+
+anotherMenu:
   -
     children:
       -
