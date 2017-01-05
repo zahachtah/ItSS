@@ -3,6 +3,7 @@ main:
 
 sideMenu:
   -
+    title: "Introduction"
     children:
       -
         title: "Welcome"
@@ -11,26 +12,26 @@ sideMenu:
         title: "Schedule & Readings"
         url: /introduction/schedule/
   -
-    title: "Introduction"
+    title: "Perspectives"
     children:
       -
         title: "Roadmap"
-        url: /introduction/introduction-Roadmap/
+        url: /perspective/Perspective-Roadmap/
       -
         title: "Social-ecolgical systems"
-        url: /introduction/Social-ecological-systems/
+        url: /perspective/Social-ecological-systems/
       -
         title: "Transdisciplinarity"
-        url: /introduction/Transdisciplinary-Research/
+        url: /perspective/Transdisciplinary-Research/
       -
         title: "Natural Science Concepts"
-        url: /introduction/Natural-Science-Concepts/
+        url: /perspective/Natural-Science-Concepts/
       -
         title: "Social Science Concepts"
-        url: /introduction/Social-Science-Concepts/
+        url: /perspective/Social-Science-Concepts/
       -
         title: "Take Home"
-        url: /introduction/Introduction-Take-Home/
+        url: /perspective/Introduction-Take-Home/
   -
     title: "The Anthropocene"
     children:

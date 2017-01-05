@@ -1,7 +1,7 @@
 ---
 title: "Roadmap"
 categories:
-  - Introduction
+  - Perspective
 tags:
   - image
   - Post Formats
@@ -24,3 +24,9 @@ Thus, we begin this module with a lecture on a biosphere shaped by humanity and 
 Another important prerequisite is the understanding that society and nature are one interlinked system, a social-ecological system. This is crucial as it lifts the perspective of a solution from the support system to the people that are part of the system as well as the connections with external systems. Carl Folke will tell us more about this. ![Social-ecological systems]({{ site.url }}{{ site.baseurl }}/assets/images/SocEcolSys.png){: .align-right}
 
 To understand and govern social ecological systems requires a trans-disciplinary approach. This entails not only understandings from different scientific disciplines but also the combination of different kinds of knowledge. Take some time to let the insights presented in the lectures on transdisciplinarity sink into you.
+
+### food for thought
+
+To give you a thought provoking presentation regarding the relation between understanding and perspective have a look at this talk:
+
+<iframe src="https://embed.ted.com/talks/roger_antonsen_math_is_the_hidden_secret_to_understanding_the_world" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>

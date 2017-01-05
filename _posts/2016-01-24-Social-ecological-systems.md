@@ -1,7 +1,7 @@
 ---
 title: "Social Ecological Systems"
 categories:
-  - Introduction
+  - Perspective
 tags:
   - image
   - Post Formats

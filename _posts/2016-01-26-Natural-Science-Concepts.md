@@ -1,7 +1,7 @@
 ---
 title: "Natural Science Concepts"
 categories:
-  - Introduction
+  - Perspective
 tags:
   - image
   - Post Formats

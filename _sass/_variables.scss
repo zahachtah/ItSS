@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 16 !default;
+$doc-font-size              : 14 !default; // changed from 16
 
 /* paragraph indention */
 $paragraph-indent           : false !default; // true, false (default)
@@ -121,7 +121,7 @@ $right-sidebar-width-wide   : 400px !default;
    Other
    ========================================================================== */
 
-$border-radius              : 4px !default;
+$border-radius              : 1px !default; //changed from 4px
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125) !default;
 $navicon-width              : 28px !default;
 $navicon-height             : 4px !default;
