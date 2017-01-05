@@ -12,6 +12,10 @@ sidebar:
 
 In this section of the course we will continue to get an __understanding of the problem__.
 
+We continue with a lecture on a biosphere shaped by humanity and we will watch Johan Rockström make a case for why we have now entered a new geological epoch, the Anthropocene. To see why this is important, we will also have a look at what is called humanities period of grace, the predating epoch called the Holocene. During this time the conditions were favourable enough to allow humanity to build the agricultural societies which gave rise to trade and eventually to the industrial and information revolution. The important lesson, is that the Holocene is the only state of the planet we know of, that can harbor society as we know it today. This is a profound lesson, one that helps us define the goal of sustainability for the future.
+
+![The Anthropocene]({{ site.url }}{{ site.baseurl }}/assets/images/Anthropocene.jpg){: .full}
+
 You will be guided through this section by a series of clips featuring Johan Rockström in which he explains the challenges humanity faces and key concepts that will help us to contextualise the current state of things.
 
 The Anthropocene is the greatest challenge for humanity and [the Great Acceleration](Greatacceleration.html) is the main driver behind the predicament. But it is not only accelerating pressure by human endeavours that drive the Anthropocene. We are the first generation of humans to have the facts to know without doubt that we undermining the capacity of the planet to sustain our way of life.
