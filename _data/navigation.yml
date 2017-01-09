@@ -7,10 +7,10 @@ sideMenu:
     children:
       -
         title: "Welcome"
-        url: /introduction/welcome/
+        url: /introduction/Welcome/
       -
         title: "Schedule & Readings"
-        url: /introduction/schedule/
+        url: /introduction/Schedule/
   -
     title: "Perspectives"
     children:
