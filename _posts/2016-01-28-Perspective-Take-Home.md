@@ -1,7 +1,7 @@
 ---
 title: "Take Home"
 categories:
-  - Introduction
+  - Perspective
 tags:
   - image
   - Post Formats
