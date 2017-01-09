@@ -11,6 +11,9 @@ sideMenu:
       -
         title: "Schedule & Readings"
         url: /introduction/Schedule/
+      -
+        title: "Contact"
+        url: /introduction/Contact/
   -
     title: "The Anthropocene"
     children:
