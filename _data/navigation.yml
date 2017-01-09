@@ -11,6 +11,33 @@ sideMenu:
       -
         title: "Schedule & Readings"
         url: /introduction/Schedule/
+-
+  title: "The Anthropocene"
+  children:
+    -
+      title: "Roadmap"
+      url: /anthropocene/Anthropocene-Roadmap/
+    -
+      title: "The Anthropocene"
+      url: /anthropocene/The-Anthropocene/
+    -
+      title: "Leaving the Holocene"
+      url: /anthropocene/Leaving-the-Holocene/
+    -
+      title: "The Great Acceleration"
+      url: /anthropocene/The-Great-Acceleration/
+    -
+      title: "The quadrupel squeeze"
+      url: /anthropocene/The-Quadruple-Squeeze/
+    -
+      title: "Planetary boundaries"
+      url: /anthropocene/Planetary-Boundaries/
+    -
+      title: "Inconvenient feedbacks"
+      url: /anthropocene/Inconvinient-Feedbacks/
+    -
+      title: "Take-Home"
+      url: /anthropocene/Anthropocene-Take-Home/
   -
     title: "Perspectives"
     children:
@@ -32,33 +59,7 @@ sideMenu:
       -
         title: "Take Home"
         url: /perspective/Perspective-Take-Home/
-  -
-    title: "The Anthropocene"
-    children:
-      -
-        title: "Roadmap"
-        url: /anthropocene/Anthropocene-Roadmap/
-      -
-        title: "The Anthropocene"
-        url: /anthropocene/The-Anthropocene/
-      -
-        title: "Leaving the Holocene"
-        url: /anthropocene/Leaving-the-Holocene/
-      -
-        title: "The Great Acceleration"
-        url: /anthropocene/The-Great-Acceleration/
-      -
-        title: "The quadrupel squeeze"
-        url: /anthropocene/The-Quadruple-Squeeze/
-      -
-        title: "Planetary boundaries"
-        url: /anthropocene/Planetary-Boundaries/
-      -
-        title: "Inconvenient feedbacks"
-        url: /anthropocene/Inconvinient-Feedbacks/
-      -
-        title: "Take-Home"
-        url: /anthropocene/Anthropocene-Take-Home/
+
 
 
 anotherMenu:
