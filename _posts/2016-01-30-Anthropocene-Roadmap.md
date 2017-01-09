@@ -10,9 +10,9 @@ sidebar:
   nav: sideMenu
 ---
 
-In this section of the course we will continue to get an __understanding of the problem__.
+In this section of the course we will try to get an __understanding of the problem__, understanding the predicament of the human race. In the next section we will focus on some of the essential methods to really understand the problem by using different perspectives.
 
-We continue with a lecture on a biosphere shaped by humanity and we will watch Johan Rockström make a case for why we have now entered a new geological epoch, the Anthropocene. To see why this is important, we will also have a look at what is called humanities period of grace, the predating epoch called the Holocene. During this time the conditions were favourable enough to allow humanity to build the agricultural societies which gave rise to trade and eventually to the industrial and information revolution. The important lesson, is that the Holocene is the only state of the planet we know of, that can harbor society as we know it today. This is a profound lesson, one that helps us define the goal of sustainability for the future.
+We will start with a lecture on a biosphere shaped by humanity and we will watch Johan Rockström make a case for why we have now entered a new geological epoch, the Anthropocene. To see why this is important, we will also have a look at what is called humanities period of grace, the predating epoch called the Holocene. During this time the conditions were favourable enough to allow humanity to build the agricultural societies which gave rise to trade and eventually to the industrial and information revolution. The important lesson, is that the Holocene is the only state of the planet we know of, that can harbor society as we know it today. This is a profound lesson, one that helps us define the goal of sustainability for the future.
 
 ![The Anthropocene]({{ site.url }}{{ site.baseurl }}/assets/images/Anthropocene.jpg){: .full}
 
