@@ -11,6 +11,12 @@
    #accordian li.catactive ul {
    	display: block;
    }
+   #accordian li.catactive {
+       color: #F47920; //#fff;
+  }
+  #accordian li.catactive ul{
+      color: #000; //#fff;
+ }
 
 
 .breadcrumbs {
