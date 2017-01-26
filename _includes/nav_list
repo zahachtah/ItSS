@@ -1,12 +1,19 @@
 {% assign navigation = site.data.navigation[include.nav] %}
 
 <nav class="nav__list">
+<div id="accordian">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
     {% for nav in navigation %}
-      <li>
+      {% assign titlelc = nav.title | downcase %}
+      {% assign pagecat = page.categories[0] | downcase %}
+      {% if titlelc contains pagecat %}
+        <li class="catactive">
+      {% else %}
+        <li class="{{pagecat}}">
+      {% endif %}
         {% if nav.url %}
           {% comment %} internal/external URL check {% endcomment %}
           {% if nav.url contains "://" %}
@@ -44,4 +51,5 @@
       </li>
     {% endfor %}
   </ul>
+  </div>
 </nav>

@@ -62,7 +62,51 @@ sideMenu:
       -
         title: "Take Home"
         url: /perspective/Perspective-Take-Home/
-
+  -
+    title: "Reconnecting"
+    children:
+      -
+        title: "Roadmap"
+        url: /reconnecting/Reconnecting-Roadmap/
+      -
+        title: "Reconnecting to the Biosphere"
+        url: /reconnecting/Reconnecting-To-The-Biosphere/
+      -
+        title: "Ecosystem Services"
+        url: /reconnecting/Ecosystem-Services/
+      -
+        title: "Land use change"
+        url: /reconnecting/Land-Use-Change/
+      -
+        title: "Biodiversity loss"
+        url: /reconnecting/Biodiversity-Loss/
+      -
+        title: "Feeding the cities"
+        url: /reconnecting/Feeding-The-Cities/
+      -
+        title: "Take Home"
+        url: /reconnecting/Reconnecting-Take-Home/
+  -
+    title: "Sustainability"
+    children:
+      -
+        title: "Roadmap"
+        url: /sustainability/Sustainability-Roadmap/
+      -
+        title: "Agreeing on the goal"
+        url: /sustainability/Agreing-On-The-Goal/
+      -
+        title: "Well-being"
+        url: /sustainability/Well-Being/
+      -
+        title: "Defining Sustainability"
+        url: /sustainability/Defining-Sustainability/
+      -
+        title: "Valuing the future"
+        url: /sustainability/Valuing-The-Future/
+      -
+        title: "Take Home"
+        url: /sustainability/Sustainability-Take-Home/
 
 anotherMenu:
   -

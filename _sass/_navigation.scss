@@ -5,6 +5,13 @@
 /*
    Breadcrumb navigation links
    ========================================================================== */
+   #accordian ul ul {
+   	display: none;
+   }
+   #accordian li.catactive ul {
+   	display: block;
+   }
+
 
 .breadcrumbs {
   @include container;
