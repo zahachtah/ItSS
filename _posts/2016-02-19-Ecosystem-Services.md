@@ -63,10 +63,10 @@ Valuation is therefore expressed in two forms:
 
 To get a deeper problematization of the issue of monetary vs non-monetary valuation of ecosystem services, see this lecture by Thomas Hahn on the topic:
 
-#
-<iframe width="700" height="394" src="http://www.youtube.com/embed/g9bB-UKEa1I" frameborder="0" allowfullscreen></iframe>
 
-# [Direct Link](http://www.youtube.com/embed/g9bB-UKEa1I)
+<iframe width="700" height="394" src="https://www.youtube.com/embed/g9bB-UKEa1I" frameborder="0" allowfullscreen></iframe>
+
+[Direct Link](https://www.youtube.com/embed/g9bB-UKEa1I)
 
 # Contributors
 Erik Andersson (topic steward), Thomas Hahn (video lecture)
