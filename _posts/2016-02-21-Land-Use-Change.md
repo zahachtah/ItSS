@@ -15,9 +15,9 @@ Watch this humbling video of land cover change patterns from 8000 Bp to -50BP pr
 
 
 
-<iframe width="700" height="394" src="http://www.youtube.com/embed/gBTlIaf12-4" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/gBTlIaf12-4" frameborder="0" allowfullscreen></iframe>
 
-[Direct Link](http://www.youtube.com/embed/gBTlIaf12-4)
+[Direct Link](https://www.youtube.com/embed/gBTlIaf12-4)
 
 # Causes of land use change
 
@@ -64,15 +64,15 @@ _Zoom in on the map and get a feeling for the scale of forest patches compared t
 
 # Land use change Lecture
 
-<iframe width="700" height="394" src="http://www.youtube.com/embed/sCzuFGIPajo" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/sCzuFGIPajo" frameborder="0" allowfullscreen></iframe>
 
-[Direct Link](http://www.youtube.com/embed/sCzuFGIPajo)
+[Direct Link](https://www.youtube.com/embed/sCzuFGIPajo)
 
 # What land use change can we expect for the future?
 
-<iframe width="700" height="394" src="http://www.youtube.com/embed/DkK79DODXe4" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/DkK79DODXe4" frameborder="0" allowfullscreen></iframe>
 
-[Direct Link](http://www.youtube.com/embed/DkK79DODXe4)
+[Direct Link](https://www.youtube.com/embed/DkK79DODXe4)
 
 # Contributors
 
