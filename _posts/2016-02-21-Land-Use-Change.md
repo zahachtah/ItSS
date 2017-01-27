@@ -57,7 +57,6 @@ The most strict and well-reinforced rule was the informal taboo against harvesti
 
 _Zoom in on the map and get a feeling for the scale of forest patches compared to the scale of agricultural fields and human settlements._
 
-#
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151188.2660701598!2d45.9009209!3d-25.30833215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21d43e1c47bf9c8d%3A0x7253d7f5f14ac96a!2sAmbazoa%2C+Madagascar!5e1!3m2!1sen!2sse!4v1420447919632" width="700" height="500" frameborder="0" style="border:0"></iframe>
 
