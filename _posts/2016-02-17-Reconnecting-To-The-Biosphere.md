@@ -11,9 +11,9 @@ sidebar:
 ---
 In this video, Professor Carl Folke explains how different operational models, worldviews and mind-sets have contributed to this disconnect from our biosphere. He explains what is meant by reconnecting to the biosphere and makes the case that we are all intricately connected to the world around us and realising this is key to facing future challenges.
 
-<iframe width="700" height="394" src="http://www.youtube.com/embed/sx9B7K6uHV0" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/sx9B7K6uHV0" frameborder="0" allowfullscreen></iframe>
 
-[Direct Link](http://www.youtube.com/embed/sx9B7K6uHV0)
+[Direct Link](https://www.youtube.com/embed/sx9B7K6uHV0)
 
 
 ## Lecturer
