@@ -49,9 +49,9 @@ As you will hear in the talk by Kate Raworth below, human needs and well-being r
 
 # Inclusive economics
 
-<iframe width="700" height="394" src="http://www.youtube.com/embed/1BHOflzxPjI" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/1BHOflzxPjI" frameborder="0" allowfullscreen></iframe>
 
-[Direct Link](http://www.youtube.com/embed/1BHOflzxPjI)
+[Direct Link](https://www.youtube.com/embed/1BHOflzxPjI)
 
 {% capture notice-2 %}
 * What is your own definition of sustainability. Does it match with any of the definitions presented above? If it is different, why do you think that is so?
