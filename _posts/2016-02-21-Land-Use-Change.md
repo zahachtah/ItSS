@@ -63,6 +63,8 @@ _Zoom in on the map and get a feeling for the scale of forest patches compared t
 
 # Land use change Lecture
 
+Here Johan Rockström will give a deep view on human transformation of planet earth through land use chain, mainly urban and agricultural development.
+
 <iframe width="700" height="394" src="https://www.youtube.com/embed/sCzuFGIPajo" frameborder="0" allowfullscreen></iframe>
 
 [Direct Link](https://www.youtube.com/embed/sCzuFGIPajo)
