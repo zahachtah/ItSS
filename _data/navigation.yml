@@ -15,7 +15,7 @@ sideMenu:
         title: "Contact"
         url: /introduction/Contact/
   -
-    title: "The Anthropocene"
+    title: "Anthropocene"
     children:
       -
         title: "Roadmap"
@@ -107,6 +107,76 @@ sideMenu:
       -
         title: "Take Home"
         url: /sustainability/Sustainability-Take-Home/
+  -
+    title: "Systems"
+    children:
+      -
+        title: "Roadmap"
+        url: /systems/Systems-Roadmap/
+      -
+        title: "Interdependence"
+        url: /systems/Interdependence/
+      -
+        title: "Regime shifts"
+        url: /systems/Regime-Shifts/
+      -
+        title: "Feedbacks"
+        url: /systems/Feedbacks/
+      -
+        title: "Change"
+        url: /systems/Change/
+      -
+        title: "Resilience"
+        url: /systems/Resilience/
+      -
+        title: "Take home"
+        url: /systems/Systems-Take-Home/
+  -
+    title: "Governance"
+    children:
+      -
+        title: "Roadmap"
+        url: /governance/Governance-Roadmap/
+      -
+        title: "Governance"
+        url: /governance/Governance/
+      -
+        title: "Management"
+        url: /governance/Management/
+      -
+        title: "Institutions"
+        url: /governance/Institutions/
+      -
+        title: "Markets"
+        url: /governance/Markets/
+      -
+        title: "Taxes and Subsidies"
+        url: /governance/Taxes-And-Subsidies/
+      -
+        title: "Participatory approaches"
+        url: /governance/Participatory-Approaches/
+      -
+        title: "Take home"
+        url: /governance/Governance-Take-Home/
+  -
+    title: "Cases"
+    children:
+      -
+        title: "Baltic Sea"
+        url: /cases/Baltic-Sea/
+      -
+        title: "Land use"
+        url: /cases/Land-Use/
+      -
+        title: "Food production systems"
+        url: /cases/Food-Production/
+      -
+        title: "The Everglades wetlands"
+        url: /cases/The-Everglades/
+
+
+
+
 
 anotherMenu:
   -
