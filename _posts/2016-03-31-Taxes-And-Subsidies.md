@@ -20,9 +20,7 @@ The graph below illustrates some basic fundamentals related to taxes in our dema
 
 # Taxes Figure:
 
-<iframe width="720" height="600" src="https://jsfiddle.net/zahachtah/gfc84h5e/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
-[Direct link](https://jsfiddle.net/zahachtah/gfc84h5e/embedded/result/#Result),
+<div id="boxTax"></div>
 
 
 As can be seen, both consumer surplus (green area) and producer surplus (violet area) is reduced as you increase the taxation. Which will be reduced the most will depend on the slopes of the demand and supply curves. The slopes are usually referred to as the elasticity of demand and supply. However, the tax collected by the government can now be used by the government to finance education, health, nature conservation, child benefits, elderly or those unemployed, or other things that enhance human wellbeing and equity. This illustrates the basic purpose of a tax, which is an important means of income redistribution in society today.
@@ -49,11 +47,222 @@ In the figure below, increase the subsidy to change the incentive of the farmer 
 
 # Subsidies Figure:
 
-<iframe width="720" height="600" src="https://jsfiddle.net/zahachtah/x4jqy2a5/embedded/result/#Result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<div id="boxSub"></div>
 
-
-[Direct link](https://jsfiddle.net/zahachtah/x4jqy2a5/embedded/result/#Result),
 
 ## Contributors
 
 Thomas Hahn, Jon Norberg
+
+<style>
+#boxTax {
+    width:700px;
+    height:500px;
+    margin: 0 4em 1em 0;
+    float: left;
+}
+#boxSub {
+    width:700px;
+    height:500px;
+    margin: 0 4em 1em 0;
+    float: left;
+}
+  .JXGtext {
+    background-color:transparent;
+    font-family: Arial, Helvetica, Geneva;
+    font-size:11px;
+    padding:0px;
+    margin:0px;
+  }
+</style>
+
+<script src="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
+<script>
+JXG.Options.axis.ticks.majorHeight = 40; // removes larger grid
+JXG.Options.axis.ticks.drawLabels = false;
+JXG.Options.axis.ticks.insertTicks = false;
+JXG.Options.axis.lastArrow = false;
+var b = JXG.JSXGraph.initBoard('boxTax', {boundingbox: [-0.2, 1.1, 1.1, -0.2], axis: true,showNavigation:false,showCopyright:false});
+
+    u = b.createElement('slider', [
+        [0.0, -0.05],
+        [1.0, -0.05],
+        [0, 0, 1]
+    ], {
+        name: '&epsilon;',
+        strokeColor: 'black',
+        fillColor: 'black'
+    });
+    ut = b.createElement('text', [0.5, -0.1, "Tax"], {
+        fixed: true
+    });
+
+
+
+
+//The value of s is"+s.Value().toFixed(2)
+
+//var checkbox = b.create('checkbox', [0.25, 0.5, 'Change Y'], {});
+
+    var chk = b.create('text', [0.01,-0.1,
+            '<input type="checkbox" id="showU" onchange="toggleUpper()" unchecked/>  Welfare benefit<br/>'
+                               ],{strokeColor:'#1f78b4'});
+
+    var upperVisible = true;
+    var toggleUpper = function() {
+            upperVisible = !upperVisible;
+        if (upperVisible==true) {
+            h.setProperty({fillOpacity:0.5});
+            h.setProperty({strokeColor:false});
+        }
+        else
+        {
+            h.setProperty({fillOpacity:1});
+            h.setProperty({strokeColor:true});
+        }
+        };
+
+var q=2
+var col1='silver'
+var col2='grey'
+var polygonColor='#1f78b4'
+var helperColor=false//'#888888'//false
+var helperLabel=false
+var slideFactor=1.5
+var taxRevCol='#ff7f00'
+var prodSurCol='#6a3d9a'
+var conSurCol='#b2df8a'
+var welfOpac=0.5
+
+
+
+
+var p1 = b.create('point',[0,1],{size:1,strokeColor:col1,fillColor:col1,withLabel:false});
+var p2 = b.create('point',[1,0],{size:1,strokeColor:col1,fillColor:col1,withLabel:false});
+var p3 = b.create('point',[1,1],{size:1,strokeColor:col1,fillColor:col1,withLabel:false});
+var p4 = b.create('point',[0,0.3],{size:1,strokeColor:col1,fillColor:col1,withLabel:false});
+var q1 = b.create('point',[0.6,0.3],{size:5,fillColor:'red', name:'Demand', labelColor:col2,face:'+',label:{strokeColor:'red'}});
+var q2 = b.create('point',[0.6,0.6],{size:5,fillColor:'blue',strokeColor:'blue', name:'Supply',face:'+',label:{strokeColor:'blue'}});
+
+var p4TS = b.create('point',[function(){ return (p4.X());},function(){ return (p4.Y()*(1+slideFactor*u.Value()));}],{size:0,strokeColor:col1,fillColor:col1,withLabel:false});
+var p3TS = b.create('point',[function(){ return (p3.X());},function(){ return (p3.Y()*(1+slideFactor*u.Value()));}],{size:0,strokeColor:col1,fillColor:col1,withLabel:false});
+var q2TS = b.create('point',[function(){ return (q2.X());},function(){ return (q2.Y()*(1+slideFactor*u.Value()));}],{size:0,strokeColor:col1,fillColor:col1,withLabel:false});
+
+
+var Demand = b.create('curve', JXG.Math.Numerics.bezier([p1,q1,q1,p2]),{strokecolor:'red', strokeWidth:3});
+var Supply = b.create('curve', JXG.Math.Numerics.bezier([p3,q2,q2,p4]),{strokecolor:'blue', strokeWidth:3});
+var SupplyTS = b.create('curve', JXG.Math.Numerics.bezier([p3TS,q2TS,q2TS,p4TS]),{strokecolor:'blue', strokeWidth:2, dash:2});
+
+
+var SD = b.create('intersection', [Supply, Demand, 0],{size:3,strokeColor:false,fillColor:helperColor,withLabel:helperLabel,name:'SD'});
+var SD0 = b.create('point',[function(){ return (SD.X());},0],{name:'Q_{no tax}',size:3,withLabel:false});
+var SDY = b.create('point',[0,function(){ return (SD.Y());}],{size:3,strokeColor:false,fillColor:helperColor,withLabel:helperLabel,name:'SDY'});
+var SD0S=b.create('segment',[SD,SDY],{strokeColor:helperColor,dash:2})
+
+var SDTS = b.create('intersection', [SupplyTS, Demand, 0],{size:3,strokeColor:false,fillColor:helperColor,withLabel:helperLabel,name:'SDTS'});
+var SDTS0=b.create('point',[function(){ return (SDTS.X());},0],{size:3,strokeColor:false,fillColor:helperColor,withLabel:true,name:'q_{produced}'});
+var QstarLine=b.create('segment',[SDTS,SDTS0],{strokeColor:helperColor,dash:2})
+var pProd=b.create('intersection',[QstarLine,Supply],{size:3,strokeColor:false,fillColor:helperColor,withLabel:helperLabel,name:'pProd'});
+var pProd0=b.create('point',[0,function(){ return (pProd.Y());}],{size:3,strokeColor:false,fillColor:helperColor,withLabel:helperLabel,name:'pProd0'});
+var pProdS=b.create('segment',[pProd,pProd0],{strokeColor:helperColor,dash:2})
+
+var XYZ=b.create('intersection',[SD0S,QstarLine],{size:3,strokeColor:false,fillColor:helperColor,withLabel:helperLabel,name:'XYZ'});
+
+var Pstar=b.create('point',[0,function(){ return (SDTS.Y());}],{size:3,strokeColor:false,fillColor:helperColor,withLabel:true,name:'P_{consumer}'});
+var PstarLine=b.create('segment',[Pstar,SDTS],{strokeColor:helperColor,dash:2})
+
+var helpLine=b.create('line',[SD,SD0],{strokeColor:helperColor,dash:2})
+var SDTSh = b.create('intersection', [SupplyTS, helpLine, 0],{size:3,strokeColor:false,fillColor:helperColor,withLabel:helperLabel,name:'SDTSh'});
+var Int2 = b.create('intersection', [SupplyTS, SD0S, 0],{size:3,strokeColor:false,fillColor:helperColor,withLabel:helperLabel,name:'Int2'});
+
+
+var h = b.create('polygon', [SD, SDTS, SDTSh,SD],{name:'h',size:3,fillcolor:polygonColor, strokeColor:false,withLabel:helperLabel, fillOpacity:0.5});
+var d = b.create('polygon', [SD, XYZ, SDTS,SD],{name:'d',size:3,fillcolor:polygonColor, strokeColor:false,withLabel:helperLabel, fillOpacity:0.5});
+var e = b.create('polygon', [SD, XYZ, pProd],{name:'e',size:3,fillcolor:polygonColor, strokeColor:false,withLabel:helperLabel, fillOpacity:0.5});
+var conSur = b.create('polygon', [SDTS, Pstar, p1],{name:'conSur',size:3,fillcolor:conSurCol, strokeColor:false,withLabel:helperLabel, fillOpacity:0.5});
+
+var taxRev = b.create('polygon', [pProd, SDTS, Pstar,pProd0],{name:'TaxRev',size:3,fillcolor:taxRevCol, strokeColor:false,withLabel:helperLabel, fillOpacity:0.5});
+
+var prodSur = b.create('polygon', [pProd, p4, pProd0],{name:'prodSur',size:3,fillcolor:prodSurCol, strokeColor:false,withLabel:helperLabel, fillOpacity:0.5});
+
+    taxT = b.createElement('text', [0.05, -0.15, function(){return (h.Area()*100).toFixed(2);}], {
+        fixed: true
+    });
+</script>
+
+<script>
+//remeber to set on load in jsfiddle
+
+
+JXG.Options.axis.ticks.majorHeight = 40; // removes larger grid
+JXG.Options.axis.ticks.drawLabels = false;
+JXG.Options.axis.ticks.insertTicks = false;
+JXG.Options.axis.lastArrow = false;
+var b = JXG.JSXGraph.initBoard('boxSub', {boundingbox: [-0.05, 1.1, 1.1, -0.2], axis: true,showNavigation:false,showCopyright:false});
+
+
+
+var q=2
+var col1='silver'
+var col2='grey'
+var polygonColor='#1f78b4'
+var helperColor=false//'#888888'//false
+var helperLabel=false
+var slideFactor=10
+var taxRevCol='#ff7f00'
+var prodSurCol='#6a3d9a'
+var conSurCol='#b2df8a'
+var welfOpac=0.5
+
+    u = b.createElement('slider', [
+        [0.0, -0.12],
+        [1.0, -0.12],
+        [0, 0, 1]
+    ], {
+
+        strokeColor: 'black',
+        fillColor: 'black'
+    });
+
+    ut = b.createElement('text', [0.45, -0.18, "Subsidy"], {fixed: true, strokecolor:'green'});
+
+    PublicD = b.createElement('text', [0.1, 0.94, "Public demand"], {fixed: true, strokecolor:'red'});
+
+
+
+farmerMC = b.createElement('text', [0.83, 0.8, "Farmer Cost"], {fixed: true, strokecolor:'blue'});
+
+    Xlabel = b.createElement('text', [0.9, -0.05, "Grasslands (ha)"], {fixed: true});
+
+var p1 = b.create('point',[0,1],{size:1,strokeColor:col1,fillColor:col1,withLabel:helperLabel});
+var p2 = b.create('point',[1,0],{size:1,strokeColor:col1,fillColor:col1,withLabel:helperLabel});
+var p3 = b.create('point',[1,1],{size:1,strokeColor:col1,fillColor:col1,withLabel:helperLabel});
+var p4 = b.create('point',[0,0.05],{size:1,strokeColor:col1,fillColor:col1,withLabel:helperLabel});
+var p5 = b.create('point',[0,0.1],{size:1,strokeColor:col1,fillColor:col1,withLabel:helperLabel});
+var p6 = b.create('point',[1,0.0],{size:1,strokeColor:col1,fillColor:col1,withLabel:helperLabel});
+var p7 = b.create('point',[function(){ return (p5.X());},function(){ return (p5.Y()*(1+slideFactor*u.Value()));}],{size:0,strokeColor:col1,fillColor:col1,withLabel:false});
+
+
+var SDemand = b.create('segment', [p1,p2],{strokecolor:'red', strokeWidth:1});
+var Supply = b.create('segment', [p3,p4],{strokecolor:'blue', strokeWidth:2});
+var FDemand = b.create('segment', [p5,p6],{strokecolor:'red', strokeWidth:1});
+var FTDemand = b.create('segment', [p7,p6],{strokecolor:'green', strokeWidth:1, dash: 2});
+
+
+var IF = b.create('intersection', [Supply, FDemand, 0],{size:3,strokeColor:false,fillColor:helperColor,withLabel:helperLabel});
+var IS = b.create('intersection', [Supply, SDemand, 0],{size:3,strokeColor:false,fillColor:helperColor,withLabel:helperLabel});
+var I1 = b.create('intersection', [Supply, FTDemand, 0],{size:3,strokeColor:false,fillColor:'green',withLabel:helperLabel});
+
+
+var LineIF = b.create('segment', [IF,[function (){return IF.X()},0]],{strokecolor:'grey', strokeWidth:2, dash: 2});
+
+var LineIS = b.create('segment', [IS,[function (){return IS.X()},0]],{strokecolor:'grey', strokeWidth:2, dash: 2});
+
+var LineI1 = b.create('segment', [I1,[function (){return I1.X()},0]],{strokecolor:'green', strokeWidth:2});
+
+var FarmerGrass = b.create('point',[function (){return I1.X()},0],{size:1,strokeColor:col1,fillColor:col1,withLabel:true,name:"F_{grassland}(ha)"});
+
+    farmerD = b.createElement('text', [function (){return 0.03+I1.X()}, function (){return 0.01+I1.Y()}, "Farmer demand"], {fixed: true, strokecolor:'green'});
+
+
+</script>
