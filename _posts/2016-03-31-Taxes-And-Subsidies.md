@@ -20,9 +20,9 @@ The graph below illustrates some basic fundamentals related to taxes in our dema
 
 # Taxes Figure:
 
-<iframe width="720" height="600" src="http://jsfiddle.net/zahachtah/gfc84h5e/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="720" height="600" src="https://jsfiddle.net/zahachtah/gfc84h5e/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-[Direct link](http://jsfiddle.net/zahachtah/gfc84h5e/embedded/result/#Result),
+[Direct link](https://jsfiddle.net/zahachtah/gfc84h5e/embedded/result/#Result),
 
 
 As can be seen, both consumer surplus (green area) and producer surplus (violet area) is reduced as you increase the taxation. Which will be reduced the most will depend on the slopes of the demand and supply curves. The slopes are usually referred to as the elasticity of demand and supply. However, the tax collected by the government can now be used by the government to finance education, health, nature conservation, child benefits, elderly or those unemployed, or other things that enhance human wellbeing and equity. This illustrates the basic purpose of a tax, which is an important means of income redistribution in society today.
@@ -49,10 +49,10 @@ In the figure below, increase the subsidy to change the incentive of the farmer 
 
 # Subsidies Figure:
 
-<iframe width="720" height="600" src="http://jsfiddle.net/zahachtah/x4jqy2a5/embedded/result/#Result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="720" height="600" src="https://jsfiddle.net/zahachtah/x4jqy2a5/embedded/result/#Result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 
-[Direct link](http://jsfiddle.net/zahachtah/x4jqy2a5/embedded/result/#Result),
+[Direct link](https://jsfiddle.net/zahachtah/x4jqy2a5/embedded/result/#Result),
 
 ## Contributors
 
