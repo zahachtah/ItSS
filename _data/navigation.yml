@@ -62,6 +62,8 @@ sideMenu:
       -
         title: "Take Home"
         url: /perspective/Perspective-Take-Home/
+        
+nextMenu:
   -
     title: "Reconnecting"
     children:
@@ -205,76 +207,3 @@ sideMenu:
         url: /cases/The-Everglades/
 
 
-
-
-
-anotherMenu:
-  -
-    children:
-      -
-        title: "Child Page C1"
-        url: /
-      -
-        title: "Child Page C2"
-        url: /
-      -
-        title: "Child Page C3"
-        url: /
-      -
-        title: "Child Page C4"
-        url: /
-      -
-        title: "Child Page C5"
-        url: /
-    title: "Reconnecting"
-  -
-    children:
-      -
-        title: "The goal of"
-        url: /
-      -
-        title: "Well-being"
-        url: /
-      -
-        title: "Defining"
-        url: /
-      -
-        title: "Valuing the future"
-        url: /
-    title: "Sustainability"
-  -
-    children:
-      -
-        title: "Child Page D1"
-        url: /
-      -
-        title: "Child Page D2"
-        url: /
-    title: "Understanding systems"
-  -
-    children:
-      -
-        title: "Child Page D1"
-        url: /
-      -
-        title: "Child Page D2"
-        url: /
-    title: "Governance toolbox"
-  -
-    children:
-      -
-        title: "Child Page D1"
-        url: /
-      -
-        title: "Child Page D2"
-        url: /
-    title: "Invoking change"
-  -
-    children:
-      -
-        title: "Child Page D1"
-        url: /
-      -
-        title: "Child Page D2"
-        url: /
-    title: "Concluding"
