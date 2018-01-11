@@ -10,7 +10,7 @@ sidebar:
   nav: sideMenu
 ---
 
-In this lecture we welcome Carl Folke, Science Director at the Stockholm Resilience Centre. He will talk about an important foundation for understanding the problems and solutions related to sustainability.__Humans and nature are one system__. The functioning of ecosystems is seen today as how the activities of humans locally and globally, and the goods and services ecosystems provide (whether direct, such as timber and fuel, or indirect, such as by regulating precipitation patterns that determine our agricultural abilities), are integral to society.
+In this lecture we welcome Carl Folke, Science Director at the Stockholm Resilience Centre. He will talk about an important foundation for understanding the problems and solutions related to sustainability. __Humans and nature are one system__. The functioning of ecosystems is seen today as how the activities of humans locally and globally, and the goods and services ecosystems provide (whether direct, such as timber and fuel, or indirect, such as by regulating precipitation patterns that determine our agricultural abilities), are integral to society.
 
 # Social ecological systems
 
