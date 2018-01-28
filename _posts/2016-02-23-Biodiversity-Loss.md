@@ -15,4 +15,4 @@ In this video Johan Rockström explains about the importance of biodiversity and
 
 [Direct Link](https://www.youtube.com/embed/x1slMb8Bfns)
 
-Lecturer: [Johan Rockström](http://www.stockholmresilience.org/21/contact/staff/1-16-2008-rockstrom.html)
+ Lecturer: [Johan Rockström](http://www.stockholmresilience.org/21/contact/staff/1-16-2008-rockstrom.html)
