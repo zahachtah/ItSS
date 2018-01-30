@@ -63,7 +63,7 @@ In this short Interview with Jeffrey Sachs, Director of The Earth Institute at C
 
 <iframe width="700" height="394" src="https:////www.youtube.com/embed/d4A62XrtpJM" frameborder="0" allowfullscreen></iframe>
 
-[Direct Link](https:////www.youtube.com/embed/d4A62XrtpJM)
+[Direct Link](https://www.youtube.com/embed/d4A62XrtpJM)
 
 Contributors: Jon Norberg, Thomas Hahn
 
