@@ -47,7 +47,7 @@ The *__figure__* below illustrates bundles of ecosystem services in the Norrstr�
 
 <figure class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ESbundlesNDB.png" alt="">
-  <figcaption>Bundles of ES identified by k-means clustering for the Norrström drainage area based on a deep survey of services which are quantifiable using publicly available data. The five groups of bundles (on the right side of the figure) are represented by rose-wind diagrams and named according to their characteristics. The diagrams are dimensionless, as they are based on normalized data for each service, and a higher surface area indicates the higher production of a particular service. The municipalities included in each group of bundles are highlighted in dark gray on the maps located at the left side of the figure</figcaption>
+  <figcaption>Bundles of ES identified by k-means clustering for the Norrström drainage area based on a deep survey of services which are quantifiable using publicly available data. The five groups of bundles (on the right side of the figure) are represented by rose-wind diagrams and named according to their characteristics. The diagrams are dimensionless, as they are based on normalized data for each service, and a higher surface area indicates the higher production of a particular service. The municipalities included in each group of bundles are highlighted in dark gray on the maps located at the left side of the figure. NOTE: In the legend the full words are: Biodiversity appreciation</figcaption>
 </figure>
 
 # Ecosystem services and the social-ecological system perspective
@@ -121,5 +121,7 @@ Ostrom, E. (1990). Governing the Commons: The Evolution of Institutions for Coll
 
 Ostrom, E. (1999). Coping with tragedies of the commons. Annu. Rev. Polit. Sci. 2, 493–535.
 Raudsepp-Hearne, C., Peterson, G.D., and Bennett, E.M. (2010). Ecosystem service bundles for analyzing tradeoffs in diverse landscapes. Proc. Natl. Acad. Sci. 107, 5242–5247.
+
+Queiroz, Cibele, Megan Meacham, Kristina Richter, Albert V. Norström, Erik Andersson, Jon Norberg, and Garry Peterson. 2015. “Mapping Bundles of Ecosystem Services Reveals Distinct Types of Multifunctionality within a Swedish Landscape.” Ambio 44 Suppl 1 (S1):89–101.
 
 TEEB (2010). The Economics of Ecosystems and Biodiversity: Mainstreaming the Economics of Nature: A Synthesis of the Approach, Conclusions and Recommendations of TEEB (Malta: Progress Press).
