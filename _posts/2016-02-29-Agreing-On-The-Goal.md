@@ -51,7 +51,7 @@ This road map leads up to 17 ambitious sustainable development goals that in con
 
 What is unique about these goals is the heavy focus on participatory approaches and stakeholder engagement during and after their establishment. Already in the Rio +20 meeting it was decided to pay particular reference to participation of vulnerable groups, such as women, developing countries, including African countries, least developed countries, land-locked developing countries, small-island developing States and middle-income countries to the decision-making process.
 
-The ambitiousness has of course also gathered some critique, e.g. that the over 150 subtargets are too many to be effectively monitored and that some need more aggressive pace since they are foundations for many of the other goals. Nevertheless, these goals provide an unprecedented collective effort for a sustainable future. Below I embed the UN site for the SDG and their descriptions (scroll down to have a look at all 17, click on them to expand their descriptions)
+The ambitiousness has of course also gathered some critique, e.g. that the over 150 subtargets are way too many to be effectively monitored and that some need more aggressive pace since they are foundations for many of the other goals. Nevertheless, these goals provide an unprecedented collective effort for a sustainable future. Below I embed the UN site for the SDG and their descriptions (scroll down to have a look at all 17, click on them to expand their descriptions)
 
 <iframe width="700" height="700" src="https://sustainabledevelopment.un.org/topics/sustainabledevelopmentgoals" frameborder="0" allowfullscreen></iframe>
 
@@ -61,7 +61,7 @@ The ambitiousness has of course also gathered some critique, e.g. that the over 
 In this short Interview with Jeffrey Sachs, Director of The Earth Institute at Columbia University, he puts the new sustainability goals into a context and presents some of the challenges. Professor Jeffrey Sachs is widely considered to be the world's leading expert on economic development and the fight against poverty. His work has been focused on ending poverty, promoting economic growth, fighting hunger and disease, and promoting sustainable environmental practices.
 
 
-<iframe width="700" height="394" src="https:////www.youtube.com/embed/d4A62XrtpJM" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/d4A62XrtpJM" frameborder="0" allowfullscreen></iframe>
 
 [Direct Link](https://www.youtube.com/embed/d4A62XrtpJM)
 
