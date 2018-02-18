@@ -26,9 +26,9 @@ Since everything depends on everything else we know two things about any living 
 
 Say we are given a network as shown in the picture below. Think of the nodes as people and the links as frequencies of interactions. This particular network is based on te play le Miserables and the interactions are when characters are in the same scene. Assume you want to 1) know how many groups are in the network, and 2) study each group individually. How would you go about this? If you kept nodes with strong interactions close to each other and nodes with weak interactions as far away from each other as possible, you would start to see a pattern emerge as we do in this graph. But the whole system is still one system, everyone is somehow interacting with everyone else. But together, they create an overlapping  story.
 
-
-
-<iframe width="800" height="700" src="https://bl.ocks.org/mbostock/raw/4062045/" frameborder="0" allowfullscreen></iframe>
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ForceLayout.png" alt="">
+</figure>
 
 # Social groups
 <figure class="align-right">
