@@ -28,7 +28,7 @@ Say we are given a network as shown in the picture below. Think of the nodes as 
 
 
 
-<iframe width="800" height="700" src="https://dl.dropboxusercontent.com/u/38371278/network2/d3people2.html" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="700" src="https://bl.ocks.org/mbostock/raw/4062045/" frameborder="0" allowfullscreen></iframe>
 
 # Social groups
 <figure class="align-right">
