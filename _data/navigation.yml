@@ -159,6 +159,36 @@ sideMenu:
         title: "Take home"
         url: /governance/Governance-Take-Home/
   -
+    title: "Invoking Change"
+    children:
+      -
+        title: "Road map"
+        url: /invoking/Invoking-Roadmap/
+      -
+        title: "Adaptive Process"
+        url: /invoking/The-Adaptive-Process/
+      -
+        title: "Agency"
+        url: /invoking/Agency-And-Transformation/
+      -
+        title: "Bridging and Brokering"
+        url: /invoking/Bridging-And-Brokering/
+      -
+        title: "Economic decisions"
+        url: /invoking/Economic-Decision-Making/
+      -
+        title: "Building Knowledge"
+        url: /invoking/Building-Knowledge/
+      -
+        title: "Scenario Planning"
+        url: /invoking/Scenario-Planning/
+      -
+        title: "Global Governance"
+        url: /invoking/Global-Governance/
+      -
+        title: "Take home"
+        url: /invoking/Invoking-Take-Home/
+  -
     title: "Cases"
     children:
       -
