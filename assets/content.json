@@ -1,0 +1,53 @@
+{
+	"A": {
+		"content": [{
+				"text": "something"
+			},
+			{
+				"text": "something"
+			},
+			{
+				"text": "something"
+			},
+			{
+				"link": {
+					"label": "B"
+				}
+			},
+			{
+				"link": {
+					"label": "C"
+				}
+			}
+		]
+	},
+	"B": {
+		"content": [{
+				"text": "something"
+			},
+			{
+				"text": "something"
+			},
+			{
+				"text": "something"
+			},
+			{
+				"link": {
+					"label": "C"
+				}
+			}
+		]
+	},
+	"C": {
+		"content": [{
+				"text": "something"
+			},
+			{
+				"text": "something"
+			},
+			{
+				"text": "something"
+			}
+		]
+	}
+}
